@@ -20,8 +20,8 @@ neo_agent = RemoteA2aAgent(
 )
 
 root_agent = Agent(
-    model=LiteLlm(model="ollama_chat/gemma3:latest"),
-    name="zion_agent",
+    model=LiteLlm(model="ollama_chat/gemma4:latest"),
+    name="neb_agent",
     description="Unified front door for Morpheus and Neo.",
     instruction=(
         "You are the operator, the front door for multiple remote agents. "
